@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body{
+  
+  background-color: #11111f;
+  font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+    @apply text-3xl font-bold;
+    color:#59cbe8
+} 
+
+a{
+  @apply items-center justify-center flex cursor-pointer  mt-0 h-20 w-20 bg-slate-800 rounded-lg hover:border-4 hover:border-cyan-600 hover:scale-110
+}
+
+.back{
+  @apply items-center justify-center flex cursor-pointer  mt-0 h-10 w-10 bg-slate-800 rounded-lg hover:border-4 hover:border-cyan-600 hover:scale-100
+}
