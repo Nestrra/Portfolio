@@ -12,12 +12,12 @@ export const Home = () => {
             </div>
             <div className='grid grid-cols-2 gap-3 md:p-3 md:grid md:grid-cols-4 md:gap-5   ' >
                 {
-                    menuRoutes.map((route) => {
+                    menuRoutes.map((route, i) => {
                         if (route.to === '/') {
                             return null
                         } else {
                             return (
-                                <a href={route.to} className={route.className}   >
+                                <a key={i} href={route.to} className={route.className}   >
                                     <i className={`${route.icon} text-3xl text-white`} ></i>
                                 </a>
 
