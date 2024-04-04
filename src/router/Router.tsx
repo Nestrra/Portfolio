@@ -25,7 +25,7 @@ export const menuRoutes = [
         className: ' md:rotate-[-5deg]'
     },
     {
-        to: 'https://drive.google.com/file/d/1lPQqHrFMCzQr5N17nGxXlAH9JCaoGdXY/view?usp=drive_link',
+        to: 'https://drive.google.com/file/d/1R907G1IUpCtEnCYb85BpUu8yafyGStsU/view?usp=sharing',
         icon: 'fa-solid fa-file-invoice',
         component: null,
         className: ' md:rotate-[5deg]'
