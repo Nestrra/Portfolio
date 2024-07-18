@@ -8,8 +8,8 @@ export const Proyects = () => {
       <Title
         title="Proyectos"
       />
-
-      <div className="px-24" >
+<div className="mb-10" >
+<div className="px-24" >
         <div className="px-9 mt-8   mb-8  " >
           <h1 className= 'text-4xl font-bold md:text-3xl' >
             InformaWeb
@@ -46,6 +46,8 @@ export const Proyects = () => {
           <a className="text-white ml-3 " href="https://drive.google.com/file/d/1OEHwZI1T0wzWXz8FoRzWgwLc7IQamCo4/view?usp=sharing" target='_blank' >Link</a>
       </div>
 
+</div>
+     
 
     </div>
   )
